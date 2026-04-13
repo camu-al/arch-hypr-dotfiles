@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md && git add README.md && git commit -m "Update: Galería organizada en cuadrícula" && git pull origin main --rebase && git push origin main
 # 🌙 Arch Hyprland Dotfiles (Noctalia)
 
 Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, optimizada para un flujo de trabajo rápido, estética oscura y temática de Samuráis (Vagabond).
