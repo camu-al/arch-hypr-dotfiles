@@ -1,10 +1,10 @@
-# 🌙 Arch Hyprland Dotfiles (Noctalia Samurai) 
+# 🌙 Arch Hyprland Dotfiles (Noctalia)
 
-Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, está optimizada para un flujo de trabajo rápido, estética oscura samurai y minimalista.
+Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, optimizada para un flujo de trabajo rápido, estética oscura y temática de Samuráis (Vagabond).
 
 ---
 
-## 📸 Vista Previa (Mi Setup)
+## 📸 Vista Previa (Mi Configuración)
 
 Aquí puedes ver cómo queda la estética "Noctalia Samurai" en acción:
 
@@ -20,33 +20,115 @@ Aquí puedes ver cómo queda la estética "Noctalia Samurai" en acción:
 ---
 
 ## 🛠️ Componentes Principales
-* **WM:** [Hyprland](https://hyprland.org/)
-* **Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/)
-* **Shell:** [Fish](https://fishshell.com/) (con Starship prompt)
-* **Gestor de Archivos:** Thunar & [Yazi](https://yazi-rs.github.io/) (terminal)
-* **Hardware Monitor:** Btop & MangoHud
-* **Lanzador:** Rofi / Wofi
-* **Barra:** Waybar
 
-## 📁 Estructura del Repo
-El repositorio incluye configuraciones para:
-* `hypr/`: Atajos, monitores y animaciones.
-* `fish/`: Alias y funciones personalizadas.
-* `kitty/`: Estética de la terminal.
-* `noctalia/`: Configuración de temas y plugins.
-* `fastfetch/`: Personalización de la info del sistema.
-* `mangaHud/` & `goverlay/`: Configuración para juegos.
-* `gtk-3.0/` & `gtk-4.0/`: Temas visuales de las ventanas.
+- **WM:** [Hyprland](https://hyprland.org/)
+- **Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/)
+- **Shell:** [Fish](https://fishshell.com/) (con Starship prompt)
+- **Gestor de Archivos:** Thunar & [Yazi](https://yazi-rs.github.io/)
+- **Barra:** Waybar
+- **Extras:** MangoHud, Fastfetch, Spotify, Btop
 
 ---
 
-## 🚀 Guía de Instalación (Para la Torre)
+## 📁 Estructura del Repo
 
-Si vas a replicar este setup en una máquina nueva con **Nvidia**, sigue estos pasos:
+- `hypr/`: Configuración del gestor de ventanas (atajos, monitores, animaciones).
+- `minimaLinux/`: Scripts base y recursos de instalación.
+- `fish/`: Alias, funciones y personalización de la shell.
+- `kitty/`: Estética y fuentes de la terminal.
+- `noctalia/`: Temas, colores y plugins propios.
+- `fastfetch/`: Configuración del logo y la info del sistema.
+
+---
+
+## 🚀 Guía de Instalación (Paso a Paso)
+
+Si vas a replicar este setup en una máquina nueva (especialmente en la Torre con Nvidia), sigue estos pasos:
 
 ### 1. Clonar el repositorio
+
 ```bash
 cd ~
 git clone https://github.com/camu-al/arch-hypr-dotfiles.git temp_dots
 cp -r temp_dots/* ~/.config/
 rm -rf temp_dots
+```
+
+---
+
+### 2. Ejecutar instalador base
+
+Entra en la carpeta de instalación incluida y lanza el script:
+
+```bash
+cd ~/.config/minimaLinux
+chmod +x install.sh
+./install.sh
+```
+
+---
+
+### 3. Configuración para Nvidia
+
+- Instalar drivers:
+
+```bash
+sudo pacman -S nvidia nvidia-utils nvidia-settings
+```
+
+- Añadir a parámetros del kernel (GRUB o cmdline):
+
+```
+nvidia_drm.modeset=1
+```
+
+- Asegurar variables en `~/.config/hypr/hyprland.conf`:
+
+```
+env = LIBVA_DRIVER_NAME,nvidia
+env = XDG_SESSION_TYPE,wayland
+env = GBM_BACKEND,nvidia-drm
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+env = WLR_NO_HARDWARE_CURSORS,1
+```
+
+---
+
+### 4. Toques Finales
+
+- Cambiar shell a Fish:
+
+```bash
+chsh -s /usr/bin/fish
+```
+
+- Nota: La carpeta `animesp/` debe gestionarse manualmente por su tamaño.
+
+---
+
+## ❤️ Créditos
+
+Mantenido por **camu-al** con ❤️ tras el rescate de 2026.
+
+---
+
+## 📌 Cómo subir cambios a GitHub
+
+Ejecuta estos comandos en tu terminal para actualizar el README correctamente:
+
+```bash
+nano ~/.config/README.md
+```
+
+(Pega el contenido y guarda)
+
+```bash
+git add README.md
+git commit -m "Update: README completo con galería e instalación paso a paso"
+git pull origin main --rebase
+git push origin main
+```
+
+---
+
+✨ ¡Repositorio listo, documentado y con estilo Noctalia Samurai!
