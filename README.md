@@ -3,13 +3,14 @@
 Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, está optimizada para un flujo de trabajo rápido, estética oscura y minimalista.
 
 ---
+
 ## 📸 Showcase (Mi Setup)
 
 Aquí puedes ver cómo queda la estética "Noctalia Samurai" en acción:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e855c0a5-141a-4464-bef0-086fd9eec6ab" height="250" alt="Login" />
-  <img src="https://github.com/user-attachments/assets/bfad0a68-7a10-4c98-bff8-b42d5ed69318" height="250" alt="Terminal" />
+  <img src="https://github.com/user-attachments/assets/bddf194d-1531-4cf8-8274-d3d0cbcc5b95" height="250" alt="Terminal" />
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/77c99c35-d3b4-462d-b489-5d0ec9141605" height="250" alt="Widgets" />
@@ -46,6 +47,6 @@ Si vas a replicar este setup en una máquina nueva con **Nvidia**, sigue estos p
 ### 1. Clonar el repositorio
 ```bash
 cd ~
-git clone https://github.com/camu-al/arch-hypr-dotfiles.git temp_dots
+git clone [https://github.com/camu-al/arch-hypr-dotfiles.git](https://github.com/camu-al/arch-hypr-dotfiles.git) temp_dots
 cp -r temp_dots/* ~/.config/
 rm -rf temp_dots
