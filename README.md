@@ -1,6 +1,6 @@
-# 🌙 Arch Hyprland Dotfiles (Noctalia)
+# 🌙 Arch Hyprland Dotfiles (Noctalia Samurai) 
 
-Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, está optimizada para un flujo de trabajo rápido, estética oscura y minimalista.
+Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, está optimizada para un flujo de trabajo rápido, estética oscura samurai y minimalista.
 
 ---
 
@@ -47,6 +47,6 @@ Si vas a replicar este setup en una máquina nueva con **Nvidia**, sigue estos p
 ### 1. Clonar el repositorio
 ```bash
 cd ~
-git clone [https://github.com/camu-al/arch-hypr-dotfiles.git](https://github.com/camu-al/arch-hypr-dotfiles.git) temp_dots
+git clone https://github.com/camu-al/arch-hypr-dotfiles.git temp_dots
 cp -r temp_dots/* ~/.config/
 rm -rf temp_dots
