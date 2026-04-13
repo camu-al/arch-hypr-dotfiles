@@ -27,3 +27,14 @@ Para usar estos archivos en un PC con Nvidia, recordar:
    ```text
    env = LIBVA_DRIVER_NAME,nvidia
    env = WLR_NO_HARDWARE_CURSORS,1
+
+## 🛠️ Guía de Instalación (Paso a Paso)
+
+Si estás instalando esto en una máquina nueva, sigue estos pasos:
+
+### 1. Clonar el repositorio
+```bash
+cd ~
+git clone [https://github.com/camu-al/arch-hypr-dotfiles.git](https://github.com/camu-al/arch-hypr-dotfiles.git) temp_dots
+cp -r temp_dots/* ~/.config/
+rm -rf temp_dots   
