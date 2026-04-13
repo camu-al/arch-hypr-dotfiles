@@ -3,7 +3,6 @@ cat << 'EOF' > README.md && git add README.md && git commit -m "Update: Galería
 
 Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, optimizada para un flujo de trabajo rápido, estética oscura y temática de Samuráis (Vagabond).
 
----
 
 ## 📸 Vista Previa (Mi Configuración)
 
