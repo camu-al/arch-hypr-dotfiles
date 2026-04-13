@@ -4,7 +4,7 @@ Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyp
 
 ---
 
-## 📸 Showcase (Mi Setup)
+## 📸 Vista Previa (Mi Setup)
 
 Aquí puedes ver cómo queda la estética "Noctalia Samurai" en acción:
 
