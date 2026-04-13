@@ -1,0 +1,3 @@
+connect.mdns_devices="[]"
+connect.dial_devices="[{\"address\":\"192.168.1.170\",\"app_state\":\"MISSING\",\"created_timestamp\":1776025168,\"device_id\":\"36346438-3162-6264-3132-383136346438\",\"dial_location_url\":\"http://192.168.1.170:3366/dd.xml\",\"display_name\":\"TV de la sala\",\"last_seen\":1776025188,\"manufacturer\":\"Toshiba-Vestel\",\"model_name\":\"VS1165U\",\"product_cap\":\"\",\"public_ip\":\"139.47.16.105\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"64d81bbd1281\",\"port\":9,\"retries\":240}}]"
+audio.play_bitrate_non_metered_migrated=true

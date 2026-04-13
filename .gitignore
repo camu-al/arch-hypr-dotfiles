@@ -1,0 +1,20 @@
+# Ignorar carpeta de anime
+animesp/
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+.cache/
+
+# Aplicaciones pesadas o privadas
+discord/
+heroic/
+Google/
+JetBrains/
+mozilla/
+Code/
+
+# Archivos de configuración de KDE/Plasma
+*rc
+kdedefaults/
