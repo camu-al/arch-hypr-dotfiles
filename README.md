@@ -5,16 +5,15 @@ Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyp
 ---
 ## 📸 Showcase (Mi Setup)
 
-Aquí puedes ver cómo queda la estética "Noctalia Samurai" en acción:
+Aquí puedes ver cómo queda la estética "Noctalia Samurai":
 
 <p align="center">
-  <img src="<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/e855c0a5-141a-4464-bef0-086fd9eec6ab" />
-" width="45%" alt="Pantalla de Login" />
-  <img src="capturas/terminal.png" width="45%" alt="Terminal con Fastfetch" />
+  <img src="https://github.com/user-attachments/assets/e855c0a5-141a-4464-bef0-086fd9eec6ab" width="45%" alt="Pantalla de Login" />
+  <img src="https://github.com/user-attachments/assets/bfad0a68-7a10-4c98-bff8-b42d5ed69318" width="45%" alt="Terminal con Fastfetch" />
 </p>
 <p align="center">
-  <img src="capturas/escritorio_widgets.png" width="45%" alt="Escritorio con Widgets" />
-  <img src="capturas/escritorio_limpio.png" width="45%" alt="Escritorio Limpio" />
+  <img src="https://github.com/user-attachments/assets/77c99c35-d3b4-462d-b489-5d0ec9141605" width="45%" alt="Escritorio con Widgets" />
+  <img src="https://github.com/user-attachments/assets/e04f62d4-973d-486d-9351-ce876bd24f2c" width="45%" alt="Escritorio Limpio" />
 </p>
 
 ---
