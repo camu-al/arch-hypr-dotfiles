@@ -32,6 +32,6 @@ Si vas a replicar este setup en una máquina nueva con **Nvidia**, sigue estos p
 ### 1. Clonar el repositorio
 ```bash
 cd ~
-git clone [https://github.com/camu-al/arch-hypr-dotfiles.git](https://github.com/camu-al/arch-hypr-dotfiles.git) temp_dots
+git clone https://github.com/camu-al/arch-hypr-dotfiles.git temp_dots
 cp -r temp_dots/* ~/.config/
 rm -rf temp_dots
