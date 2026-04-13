@@ -3,6 +3,21 @@
 Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, está optimizada para un flujo de trabajo rápido, estética oscura y minimalista.
 
 ---
+## 📸 Showcase (Mi Setup)
+
+Aquí puedes ver cómo queda la estética "Noctalia Samurai" en acción:
+
+<p align="center">
+  <img src="<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/e855c0a5-141a-4464-bef0-086fd9eec6ab" />
+" width="45%" alt="Pantalla de Login" />
+  <img src="capturas/terminal.png" width="45%" alt="Terminal con Fastfetch" />
+</p>
+<p align="center">
+  <img src="capturas/escritorio_widgets.png" width="45%" alt="Escritorio con Widgets" />
+  <img src="capturas/escritorio_limpio.png" width="45%" alt="Escritorio Limpio" />
+</p>
+
+---
 
 ## 🛠️ Componentes Principales
 * **WM:** [Hyprland](https://hyprland.org/)
