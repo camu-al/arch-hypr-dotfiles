@@ -1,6 +1,6 @@
 # 🌙 Arch Hyprland Dotfiles (Noctalia)
 
-Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, rescatada y organizada tras el gran desastre del arranque de 2026. Está optimizada para un flujo de trabajo rápido, estética oscura y minimalista.
+Este repositorio contiene mi configuración personal de **Arch Linux** con **Hyprland**, está optimizada para un flujo de trabajo rápido, estética oscura y minimalista.
 
 ---
 
