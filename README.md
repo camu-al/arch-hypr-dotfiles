@@ -101,34 +101,3 @@ env = WLR_NO_HARDWARE_CURSORS,1
 ```bash
 chsh -s /usr/bin/fish
 ```
-
-- Nota: La carpeta `animesp/` debe gestionarse manualmente por su tamaño.
-
----
-
-## ❤️ Créditos
-
-Mantenido por **camu-al** con ❤️ tras el rescate de 2026.
-
----
-
-## 📌 Cómo subir cambios a GitHub
-
-Ejecuta estos comandos en tu terminal para actualizar el README correctamente:
-
-```bash
-nano ~/.config/README.md
-```
-
-(Pega el contenido y guarda)
-
-```bash
-git add README.md
-git commit -m "Update: README completo con galería e instalación paso a paso"
-git pull origin main --rebase
-git push origin main
-```
-
----
-
-✨ ¡Repositorio listo, documentado y con estilo Noctalia Samurai!
